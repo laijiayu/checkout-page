@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-center">
-        <h3>redux</h3>
+        <h3>checkout page</h3>
         <div className="nav-container">
           <CartIcon />
           <div className="amount-container">
