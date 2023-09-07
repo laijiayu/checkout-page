@@ -1,4 +1,3 @@
-import React from "react"
 import CartItem from "./CartItem"
 import { useSelector, useDispatch } from "react-redux"
 import { openModal } from "../features/modal/modalSlice"
