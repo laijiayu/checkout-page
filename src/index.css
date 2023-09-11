@@ -178,6 +178,10 @@ Cart
   text-align: center;
   margin-bottom: 3rem;
 }
+.empty-btn{
+  display: flex;
+  justify-content: center;
+}
 .empty-cart {
   text-transform: lowercase;
   color: var(--clr-grey-5);
@@ -195,7 +199,8 @@ Cart
   margin-top: 1rem;
 }
 .clear-btn,
-.confirm-btn {
+.confirm-btn,
+.rotate-btn {
   background: transparent;
   padding: 0.5rem 1rem;
   color: var(--clr-red-dark);
@@ -203,7 +208,7 @@ Cart
   margin-top: 2.25rem;
   border-radius: var(--radius);
 }
-.clear-btn:hover {
+.clear-btn:hover, .rotate-btn:hover {
   background: var(--clr-red-light);
   color: var(--clr-red-dark);
   border-color: var(--clr-red-light);
@@ -212,6 +217,7 @@ Cart
   border-color: var(--clr-primary);
   color: var(--clr-primary);
 }
+
 /*
 =============== 
 Cart Item
