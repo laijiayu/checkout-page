@@ -15,7 +15,7 @@ function App() {
   }, [cartItems])
 
   useEffect(() => {
-    dispatch(getCartItems("random"))
+    dispatch(getCartItems())
   }, [])
 
   if (isLoading) {
